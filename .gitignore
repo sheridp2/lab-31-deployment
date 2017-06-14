@@ -5,7 +5,7 @@ build/
 db/
 .env
 karma.conf.js
-webpack.config.js
+
 
 ### OSX ###
 .DS_Store
