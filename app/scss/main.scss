@@ -1,0 +1,60 @@
+// :::: Vars ::::
+
+$brand-primary: #444;
+$btn-primary: $brand-primary / 2;
+$black: #000;
+$white: #fff;
+
+// :::::: Mixins ::::::: ///
+
+@mixin board{
+  border: 2px dashed white;
+
+}
+
+@mixin fonter{
+    font-family: serif;
+}
+@mixin buttoner{
+  font-size: 1.5em;
+}
+
+// :::: base styles ::::
+
+body {
+  font-family: helvetica;
+  font-size: 2em;
+  background: #87CEEB;
+  padding-left: .5em;
+}
+
+select{
+  @include buttoner
+}
+
+form{
+  @include fonter;
+  @include buttoner;
+}
+input{
+  font-size: .5em;
+}
+
+h1{
+  @include fonter;
+  font-size: 3em;
+  padding-bottom: .5em;
+}
+
+h2{
+  @include fonter;
+  font-size: 2em;
+}
+
+nav{
+
+}
+
+section{
+  display: inline-block;
+}

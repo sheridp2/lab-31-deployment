@@ -1,0 +1,8 @@
+@mixin img-boarder{
+  border: 20px solid yellow;
+}
+img{
+  @include img-boarder
+  margin-top: 1em;
+  width: 10em
+}

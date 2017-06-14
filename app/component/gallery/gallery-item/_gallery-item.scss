@@ -1,0 +1,14 @@
+@mixin board-yellow{
+  border: .5em solid yellow;
+  padding: 1em;
+  margin-top: 1em;
+
+}
+#gallery-list{
+  @include board-yellow;
+  width: 20em;
+}
+
+button{
+  margin-top: .5em
+}
