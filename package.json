@@ -8,7 +8,7 @@
     "build": "webpack",
     "test": "karma start --single-run",
     "start": "node server.js",
-    "heroku-postbuild": "webpack -p --postgress"
+    "heroku-postbuild": "webpack -p --progress"
   },
   "engines": {
     "node": "4.4.7"
